@@ -61,7 +61,7 @@
           dashboard.appendChild(createCard("Potassium (K)", `${input.K} ppm`, "High levels"));
           dashboard.appendChild(createCard("Soil pH", input.ph, "Slightly acidic (optimal)"));
           dashboard.appendChild(createCard("Temperature", `${input.temperature} °C`, "Ideal growing conditions"));
-          dashboard.appendChild(createCard("Humidity", `${input.humidity}`, "Well hydrated"));
+          dashboard.appendChild(createCard("Humidity", `${input.humidity} %`, "Well hydrated"));
 
           const recContainer = document.getElementById("recommendation-images");
           recContainer.innerHTML = "";
